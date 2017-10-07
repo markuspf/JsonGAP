@@ -1,9 +1,5 @@
-#
-# JsonGAP: Printing GAP objects to JSON (written in GAP)
-#
-# Declarations
-#
 
 #! @Description
-#!   Insert documentation for you function here
-DeclareGlobalFunction( "JsonGAP_Example" );
+#!    Operation to serialise basic GAP objects to a JSON Stream
+DeclareOperation("ToJsonStream", [IsOutputTextStream, IsObject]);
+
